@@ -1,0 +1,16 @@
+{
+  "name": "scrape-service",
+  "version": "1.0.0",
+  "description": "URL scraper as a HTTP service",
+  "main": "scrape-service.js",
+  "author": "kimmoal",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "2.0.1",
+    "cheerio": "^1.0.0-rc.10",
+    "chrome-har-capturer": "^0.13.9",
+    "express": "^4.17.2",
+    "puppeteer": "^13.0.1",
+    "puppeteer-cluster": "^0.22.0"
+  }
+}
